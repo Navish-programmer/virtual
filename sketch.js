@@ -26,6 +26,7 @@ background(46,139,87)
 if(keyWentDown("UP_ARROW")){
   writeStock(foodS);
   Dog.addImage(happydogimg)
+  Dog.scale=0.2
 
 }
   drawSprites();
